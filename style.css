@@ -1,12 +1,19 @@
 body {
     font-family: "Roboto", sans-serif;
+    background-color: #303030;
+}
+
+#container {
     background-color: #f9faf8;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 #hero {
     background-color: #1E1E1E;
     max-width: 1600px;
-    padding-bottom: 16px;
+    padding: 0 auto 16px;
+    margin-top: -8px;
 
 }
 
@@ -230,5 +237,6 @@ button:active {
     background-color: #1E1E1E;
     text-align: center;
     max-width: 1600px;
-    padding: 32px 0;
+    padding: 32px;
+    margin: 0 auto -8px;
 }
